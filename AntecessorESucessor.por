@@ -1,7 +1,7 @@
 programa {
   funcao inicio() {
     //Declaração de variáveis
-    real n1, ante, suce
+    inteiro n1, ante, suce
 
     //Entrada de dados
     escreva("Insira um número: ")
