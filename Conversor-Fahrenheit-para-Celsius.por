@@ -11,6 +11,6 @@ programa {
     celsius = (fahren - 32) / 1.8
     
     //Saída de dados (Resultado da conversão)
-    escreva("São ", celsius, "° em Celsius.")
+    escreva("São °", celsius, " em Celsius.")
   }
 }
