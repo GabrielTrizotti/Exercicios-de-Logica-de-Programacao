@@ -4,10 +4,7 @@ programa {
     real precoOriginal, precoPromocao, desconto, porcentagem, calculoPorcentagem
 
     //Cabeçario Informativo
-    escreva("---------------------------------", "\n", "CALCULE O DESCONTO", "\n", "---------------------------------", "\n")
-    
-    //Pulo de linha
-    escreva("\n")
+    escreva("---------------------------------", "\n", "CALCULE O DESCONTO", "\n", "---------------------------------", "\n\n")
 
     //Entrada de dados (Apresentação do preço original)
     escreva("Insira o preço do produto: ")
@@ -24,10 +21,7 @@ programa {
     precoPromocao = precoOriginal - desconto   
 
     //Texto Informativo
-    escreva("---------------------------------", "\n", "RESULTADO", "\n", "---------------------------------", "\n")
-
-    //Pulo de linha
-    escreva("\n")
+    escreva("---------------------------------", "\n", "RESULTADO", "\n", "---------------------------------", "\n\n")
 
     //Saída de dados (Resultado do cálculo de desconto adicionando-o ao preço original)
     escreva("O desconto foi de: R$", desconto, "\n")
